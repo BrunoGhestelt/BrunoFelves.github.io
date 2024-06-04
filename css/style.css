@@ -1,0 +1,311 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+main {
+  display: grid;
+  justify-content: center;
+  margin: 3rem;
+  grid-template-columns: 1fr 2fr;
+  background-color: white;
+}
+
+.links {
+  display: flex;
+  gap: 0px;
+  padding-left: 0px;
+}
+
+.links a {
+  text-decoration: none;
+  margin: auto;
+  margin-left: 0px;
+  font-size: 1rem;
+  color: black;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 3px;
+  border: 3px solid transparent;
+}
+
+.links a:hover {
+  text-decoration: none;
+  margin: auto;
+  margin-left: 0px;
+  font-size: 1rem;
+  color: black;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 3px;
+  border: 3px solid darkgrey;
+  border-radius: 4px;
+}
+
+.foto {
+  display: grid;
+  margin: 5rem;
+  background-image: url(/public/img/bruno.jpg);
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  border-radius: 50%;
+  padding-right: 0.5rem;
+  background-size: cover;
+}
+
+.overview h1 {
+  text-align: left;
+  align-self: center;
+  margin-top: 7rem;
+  margin-bottom: 0px;
+  font-size: 4.4rem;
+  max-width: 23ch;
+}
+
+.overview p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+span {
+  color: darkgrey;
+}
+
+.citacao {
+  grid-column: span 2;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.1rem;
+  quotes: none;
+  text-align: center;
+}
+
+.citacao p {
+  color: black;
+  text-align: center;
+}
+
+.exp p {
+  font-size: 11rem;
+  word-break: break-all;
+  max-width: 5ch;
+  text-align: left;
+  margin: auto;
+  font-weight: bold;
+  color: darkgray;
+  min-width: 5ch;
+  margin-top: 5rem;
+  margin-right: 0px;
+}
+
+.sobre {
+  display: grid;
+  margin: 1.8rem;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.sobre p {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: black;
+}
+
+.projeto {
+  display: grid;
+  background-color: whitesmoke;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  margin: 0px;
+  margin-bottom: 2rem;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  transition: 0.5s;
+}
+
+.projeto:hover {
+  display: grid;
+  background-color: whitesmoke;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  margin: 0px;
+  margin-bottom: 2rem;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+
+.projeto h4 {
+  font-size: 1rem;
+}
+.dev {
+  margin-left: 2rem;
+}
+
+.projeto p {
+  margin: 0px;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.langs {
+  display: flex;
+  gap: 1rem;
+  margin-left: 2rem;
+}
+
+.black {
+  background-color: rgba(0, 0, 0, 0.836);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+.formacao h2 {
+  font-size: 10rem;
+  color: rgba(0, 0, 0, 0.836);
+  margin: 5rem 4rem 4rem 2rem;
+  word-break: break-all;
+}
+
+.academica {
+  display: grid;
+}
+
+.sobre-exp p {
+  color: rgb(173, 173, 173);
+  font-size: 1.3rem;
+  margin: 4rem 2rem 2rem 0rem;
+}
+
+.white {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.cursos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
+
+.curso1 {
+  display: grid;
+  background-color: rgba(0, 0, 0, 0.61);
+  border-radius: 4px;
+  gap: 0px;
+  border-radius: 6px;
+  border-left: 5px solid lightslategray;
+  transition: 0.5s;
+}
+
+.curso1:hover {
+  display: grid;
+  background-color: rgba(0, 0, 0, 0.61);
+  border-radius: 4px;
+  gap: 0px;
+  border-radius: 6px;
+  border-left: 5px solid darkslategrey;
+}
+
+.curso1 h4 {
+  margin-left: 1rem;
+  margin-bottom: 0px;
+  color: rgb(173, 173, 173);
+}
+
+.curso1 h5 {
+  color: whitesmoke;
+  margin: 1rem auto 0px 1rem;
+}
+
+.curso1 p {
+  color: rgb(173, 173, 173);
+  margin: 1rem auto 1rem 1rem;
+}
+
+.infos {
+  display: grid;
+  grid-row: 1fr;
+  align-items: start;
+  grid-template-columns: 1fr 1fr;
+}
+
+.intensivos {
+  display: grid;
+  gap: 0px;
+  margin: 0rem auto 0rem 1rem;
+}
+
+.intensivos h3 {
+  color: rgb(173, 173, 173);
+  margin-bottom: 0px;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.curso-intensivo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+  text-align: left;
+}
+
+.curso-intensivo h6,
+p {
+  font-size: 0.9rem;
+  color: whitesmoke;
+  margin: 1rem auto 0rem auto;
+  text-align: left;
+}
+
+.idiomas {
+  display: grid;
+  margin: 0rem auto 5rem 1rem;
+}
+
+.idiomas h3 {
+  color: rgb(173, 173, 173);
+  margin-top: 1rem;
+  margin-bottom: 0px;
+}
+
+.idiomas-cada h6 {
+  color: whitesmoke;
+  font-size: 0.9rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0px;
+}
+
+footer {
+  display: grid;
+  background-color: rgba(0, 0, 0, 0.966);
+  grid-template-columns: 1fr 1fr;
+  padding: 3rem;
+  gap: 5rem;
+}
+
+.conversa h3 {
+  color: rgb(173, 173, 173);
+}
+
+.dados h3,
+a {
+  margin-left: 2rem;
+  color: whitesmoke;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.direitos {
+  grid-column: span 2;
+  font-size: 1.5rem;
+}
